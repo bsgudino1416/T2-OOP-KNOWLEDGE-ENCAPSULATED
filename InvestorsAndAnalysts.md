@@ -7,7 +7,7 @@ Web system to manage tire sales efficiently. It allows you to register products,
 #### INTEGRANTS:
 #### BRYAN STALIN GUDINO YEPEZ
 #### STEVEN SEBASTIAN LOZA QUISHPE
-#### Integrant 3
+#### JAIME MIKAEL HIDALGO NOGALES
 ---
 ### PROBLEM
 We need a system that allows us to control inventory and sales prices in a tire store, since imbalances in profits and differences in product entry and exit records have been detected. To understand what the program needs to do, you first need to understand a little about inventory management, updating prices, and applying discounts and taxes. However, we will keep things simple and only deal with the recording of tire entries and exits, along with the calculation of final prices with discount and VAT included.
