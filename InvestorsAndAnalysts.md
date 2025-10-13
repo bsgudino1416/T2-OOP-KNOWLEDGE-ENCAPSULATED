@@ -8,6 +8,5 @@ Web system to manage tire sales efficiently. It allows you to register products,
 #### BRYAN STALIN GUDINO YEPEZ
 #### Integrant 2
 #### Integrant 3
-#### Integrant 4
 ---
 PROBLEM
