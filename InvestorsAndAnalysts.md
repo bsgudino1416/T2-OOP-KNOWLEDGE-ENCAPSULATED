@@ -18,6 +18,7 @@ In the south of Quito, specifically in the 23 de Mayo sector, tire stores play a
 In our local tire store, these issues have become evident. Sometimes, sales records do not match the actual number of tires in stock, and price updates are made inconsistently, affecting profit margins. For this reason, it is necessary to implement a simple computer-based system that can record the entry and exit of tires, automatically apply discounts and VAT, and keep track of total inventory value. By introducing this system, the store will have more accurate control of its stock and finances, reducing human error and improving efficiency in daily operations.
 
 A study is being carried out which shows how the progress of the years since before the pandemic where it was assumed that mobility was good and after the pandemic where it also shows the change of people for a certain way of taking care of their vehicles with the purchase of tires
+
 <img width="637" height="167" alt="image" src="https://github.com/user-attachments/assets/3ba40eee-afc0-4889-8f0c-7389ac36f376" />
 
 This table shows a general comparison of tire sales and inventory movements between 2019 (before the pandemic) and 2024. It highlights the total number of tires sold per year, the variation rate, and key observations about the market situation.
