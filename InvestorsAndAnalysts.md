@@ -6,7 +6,7 @@ Web system to manage tire sales efficiently. It allows you to register products,
 ### NRC 28434
 #### INTEGRANTS:
 #### BRYAN STALIN GUDINO YEPEZ
-#### Integrant 2
+#### STEVEN SEBASTIAN LOZA QUISHPE
 #### Integrant 3
 ---
 ### PROBLEM
