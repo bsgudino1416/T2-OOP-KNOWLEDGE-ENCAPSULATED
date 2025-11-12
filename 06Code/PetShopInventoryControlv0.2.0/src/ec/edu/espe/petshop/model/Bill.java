@@ -14,7 +14,7 @@ public class Bill {
     }
 
     public void showInvoice() {
-        System.out.println("\n=== INVOICE #" + id + " ===");
+        System.out.println("\n=== BILL #" + id + " ===");
         System.out.println(order);
         System.out.println("Date: " + date);
         System.out.println("Total: $" + order.calculateTotal());

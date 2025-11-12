@@ -88,13 +88,13 @@ public class AddProductMain {
                 sc.nextLine();
 
             } catch (Exception e) {
-                System.out.println("⚠️ Error: Invalid input. Please try again.");
+                System.out.println("Error: Invalid input. Please try again.");
                 sc.nextLine();
                 option = handleError(sc);
             }
         }
 
-        System.out.println("👋 Returning to system...");
+        System.out.println("? Returning to system...");
         sc.close();
     }
 
