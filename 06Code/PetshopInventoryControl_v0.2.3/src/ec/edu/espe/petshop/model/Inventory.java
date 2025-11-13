@@ -6,20 +6,7 @@ import java.io.*;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-/**
- * Inventory actualizado:
- * - conserva addProduct(Scanner), addProduct(Product), getNextProductId(), showInventory()
- * - añade:
- *   - updateStock(int id, int quantityChange)
- *   - sellProductInteractive(Scanner sc)
- *   - findProductByName(String name)
- *   - findProductsByName(String partial)
- *   - searchProductMenu(Scanner sc)
- *   - saveToJson(String path) / loadFromJson(String path)
- *   - modifyInventoryByCategory(Scanner sc, String jsonPath)
- *
- * Mantiene compatibilidad con tu Main original.
- */
+
 public class Inventory {
 
     private List<Product> products;
@@ -81,12 +68,7 @@ public class Inventory {
         return products;
     }
 
-    // ---------- Nuevos métodos añadidos ----------
-
-    /**
-     * updateStock: ajusta el stock de un producto por ID (puede sumar o restar).
-     * quantityChange: positivo para agregar, negativo para reducir (vender).
-     */
+    
     public void updateStock(int id, int quantityChange) {
         for (Product p : products) {
             if (p.getId() == id) {
@@ -240,10 +222,7 @@ public class Inventory {
         }
     }
 
-    /**
-     * Edit inventory by category reading JSON (category assumed as prefix in name "CATEGORY - ...")
-     * This method reads JSON from jsonPath, filters by category, allows edit price/stock and saves back.
-     */
+
     public void modifyInventoryByCategory(Scanner sc, String jsonPath) {
         // intentar cargar (no sobreescribe si ya está cargado)
         loadFromJson(jsonPath);

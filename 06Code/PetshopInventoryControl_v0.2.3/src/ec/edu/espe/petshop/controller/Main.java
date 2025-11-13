@@ -221,7 +221,7 @@ public class Main {
                         System.out.println("Found products:");
                         for (Product p : results) {
                             System.out.println("ID: " + p.getId() + " | " + p.getName() + " | Price: " + p.getPrice() + " | Stock: " + p.getStock());
-                            if (p.getStock() < 4) System.out.println("   producto con bajo stock");
+                            if (p.getStock() < 4) System.out.println("  ⚠ producto con bajo stock");
                         }
                     }
                     break;
